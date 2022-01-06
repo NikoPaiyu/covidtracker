@@ -1,0 +1,53 @@
+.login_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #f6f6f6;
+    .login_container {
+ 
+        width: 1000px;
+        display: flex;
+        border-radius: 0.5rem;
+        gap: 0.5rem;
+
+        .login_container_form {
+            padding: 2.5rem;
+            flex: 1;
+            background-color: #fff;
+
+            .login_forgot_password {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .social_button {
+                display: flex ;
+                flex-direction: row;
+                gap: 0.5rem;
+                button {
+                    flex: 1;
+                }
+            }
+        }
+
+        .login_container_detail {
+            flex: 1;
+            padding: 2.5rem;
+            background-color: #fff;
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    padding : 16px 0;
+                    border-bottom: #d6d6d6 1px solid;
+                }
+            }
+        }
+    }  
+}

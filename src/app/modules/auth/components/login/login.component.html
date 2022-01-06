@@ -1,0 +1,53 @@
+<div class="login_wrapper">
+    <div class="login_container">
+
+        <div class="login_container_form">
+            <div class="login_container_header mb-4">
+                <h5 class="fw-bold">Covid Tracker Login</h5>
+            </div>
+
+            <form>
+                <covid-input type="text" placeholder="" [isMargin]="true" id="email" label="Email"></covid-input>
+                <covid-input type="password" placeholder="" [isMargin]="false" id="password" label="Password"></covid-input>
+                <div class="login_forgot_password">
+                    <button type="button" class="btn btn-primary mt-4">Login</button>
+                    <button type="button" class="btn btn-link mt-4">Forgot password</button>
+                </div>
+            </form>
+
+            <hr>
+
+            <div class="login_container_header mb-2">
+                <h6>Social Login</h6>
+            </div>
+
+            <div class="social_button">
+                <button type="button" class="btn btn-dark">Login with <b>Facebook</b></button>
+                <button type="button" class="btn btn-dark">Login with <b>Google</b></button>
+            </div>
+        </div>
+        <div class="login_container_detail">
+            
+            <div class="login_container_header mb-4">
+                <h5 class="fw-bold">Updated Covid Counts</h5>
+            </div>
+
+            <ul>
+                <li>
+                    <label>Total WorldWide Active Covid Cases</label>
+                    <h6>52,233,122</h6>
+                </li>
+                <li>
+                    <label>Total WorldWide Active Covid Deaths</label>
+                    <h6>52,233,122</h6>
+                </li>
+                <li>
+                    <label>Total WorldWide Covid Recovery</label>
+                    <h6>257,131,258</h6>
+                </li>
+            </ul>
+            
+
+        </div>
+    </div>
+</div>
